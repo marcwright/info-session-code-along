@@ -55,7 +55,7 @@ Most webpages (at a minimum) consist of HTML, CSS and Javascript files.
 
 - **HTML** stands for Hyper Text Markup Language. We use HTML tags to create HTML elements which give our page structure. You can think of HTML as the **NOUNS** of our page.
 - **CSS** stands for Cascading Style Sheets. You can think of CSS as the **ADJECTIVES** of our page. CSS consists of **rules** that determine the color, fonts, and sizes of our HTML elements.
-- **Javascript** dictates the behavior of our webpage. It allows events to happen when we click on a button to submit a form. Javascript also helps Google or Amazon "guess" what we're searching for in the search box.
+- **Javascript** dictates the behavior of our webpage. You can think of Javascript as the **VERBS** of a webpage. It allows events to happen when we click on a button to submit a form. Javascript also helps Google or Amazon "guess" what we're searching for in the search box.
 
 <br>
 
@@ -73,7 +73,9 @@ Our browser **bakes** these **ingredients** (files) together to render a webpage
 
 **Question**: Has anyone heard of these terms? Has anyone built a website using HTML, CSS and Javascript?
 
-In Cloud9 we're gonna build a webpage that contains HTML, CSS and Javascript so we can see what each does for us. We'll walk through each of these step together.
+In Cloud9 we're gonna build a webpage that contains HTML, CSS and Javascript so we can see what each does for us. We'll walk through each of the steps below together.
+
+To start, I'm gonna send you a link to my [Cloud9 workspace](https://ide.c9.io/marc_wright/info-test). You'll be able to copy any code you need. We'll also take a look at the finished version of what we're gonna build.
 
 1. Go to Cloud9 and create a new workspace. Give it a name and select "blank" workspace.
 
