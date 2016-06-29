@@ -12,6 +12,8 @@
 
 ## <a name="request-response">The request/response cycle</a>
 
+**Question**: Can someone explain the process of how a webpage is rendered in our browser when we visit a given address?
+
 The **request/response cycle** is how your browser retrieves files from a server and renders a webpage.
 
 <br>
@@ -68,6 +70,8 @@ Our browser **bakes** these **ingredients** (files) together to render a webpage
 ![wedo](http://i.imgur.com/6Kce0ca.png) 
 
 ## <a name="build">Build a webpage using HTML, CSS and Javascript</a>
+
+**Question**: Has anyone heard of these terms? Has anyone built a website using HTML, CSS and Javascript?
 
 In Cloud9 we're gonna build a webpage that contains HTML, CSS and Javascript so we can see what each does for us. We'll walk through each of these step together.
 
