@@ -32,7 +32,7 @@ Your browser takes those ingredients (the files) and bakes (renders) a webpage f
 
 - Copy and paste `68.71.212.186` into your browser URL. Where does it take you?
 - Let's open the **Chrome Developer Tools** (option + command + i) and select the **Network** tab. Notice all of the files that are being sent back to us in the response from ESPN!
-- Let's check out come **request** and **response** headers. 
+- Let's check out some **request** and **response** headers. 
 
 <br>
 
@@ -53,7 +53,7 @@ Most webpages (at a minimum) consist of HTML, CSS and Javascript files.
 
 - **HTML** stands for Hyper Text Markup Language. We use HTML tags to create HTML elements which give our page structure. You can think of HTML as the **NOUNS** of our page.
 - **CSS** stands for Cascading Style Sheets. You can think of CSS as the **ADJECTIVES** of our page. CSS consists of **rules** that determine the color, fonts, and sizes of our HTML elements.
-- **Javascript** dictates the behavior of our webpage. It allows events to happen when we click on a button to submit a form. Javascript also helps Google "guess" what we're searching for in the search box.
+- **Javascript** dictates the behavior of our webpage. It allows events to happen when we click on a button to submit a form. Javascript also helps Google or Amazon "guess" what we're searching for in the search box.
 
 <br>
 
