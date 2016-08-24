@@ -21,7 +21,7 @@ The **request/response cycle** is how your browser retrieves files from a server
 
 <br>
 
-When you visit [ESPN](https://www.espn.com) you're making a **request** to a server that's located somewhere on the internet. Espn.com is merely an alias for the server's actual IP (Internet Protocol) address which is `http://68.71.212.186/`. I would never remember that!
+When you visit [ESPN](https://www.espn.com) you're making a **request** to a server that's located somewhere on the internet. Espn.com is merely an alias for the server's actual IP (Internet Protocol) address which is `http://199.181.133.15`. I would never remember that!
 
 The server then sends you a **response** that generally consists of **HTML, CSS and Javascript** files. _We also receive other files like images, video, ads_. 
 
@@ -32,7 +32,7 @@ Your browser takes those ingredients (the files) and bakes (renders) a webpage f
 ![wedo](http://i.imgur.com/6Kce0ca.png) 
 
 
-- Copy and paste `68.71.212.186` into your browser URL. Where does it take you?
+- Copy and paste `199.181.133.15` into your browser URL. Where does it take you?
 - Let's open the **Chrome Developer Tools** (option + command + i) and select the **Network** tab. Notice all of the files that are being sent back to us in the response from ESPN!
 - Let's check out some **request** and **response** headers. 
 
