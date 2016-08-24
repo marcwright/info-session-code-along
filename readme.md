@@ -21,7 +21,7 @@ The **request/response cycle** is how your browser retrieves files from a server
 
 <br>
 
-When you visit [ESPN](www.espn.com) you're making a **request** to a server that's located somewhere on the internet. Espn.com is merely an alias for the server's actual IP (Internet Protocol) address which is `http://68.71.212.186/`. I would never remember that!
+When you visit [ESPN](https://www.espn.com) you're making a **request** to a server that's located somewhere on the internet. Espn.com is merely an alias for the server's actual IP (Internet Protocol) address which is `http://68.71.212.186/`. I would never remember that!
 
 The server then sends you a **response** that generally consists of **HTML, CSS and Javascript** files. _We also receive other files like images, video, ads_. 
 
