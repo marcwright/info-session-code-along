@@ -130,7 +130,7 @@ To start, I'm gonna send you a link to my [Cloud9 workspace](https://ide.c9.io/m
 
 	```html
 	<button onclick="alert('Hello World!')">Click me!</button> 
-	// add the button inside the body of your page, just below your h1
+	<!-- add the button inside the body of your page, just below your h1 -->
 	```
 
 	The alert should look like this when clicked:
