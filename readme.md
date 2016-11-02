@@ -106,7 +106,7 @@ We're gonna use an online tool called [Codepen.io](http://codepen.io/) to build 
 	Finally, let's add a button that will use Javascript to alert your name. We'll add this to our `JS` window.
 	
 
-5. Let's add a `button` element to our page and a Javascript [onclick](http://www.w3schools.com/jsref/event_onclick.asp) event. When our button is clicked, it'll fire off a browser alert. Let's add the code below:
+5. Let's add a `button` element to our page and a Javascript [onclick](http://www.w3schools.com/jsref/event_onclick.asp) event. When our button is clicked, it'll fire off a browser alert. Let's add the code below to our HTML window:
 
 	```html
 	<button onclick="alert('Hello World!')">Click me!</button> 
@@ -115,7 +115,7 @@ We're gonna use an online tool called [Codepen.io](http://codepen.io/) to build 
 
 	The alert should look like this when clicked:
 	
-	![](img/step3a.png)
+	![](https://i.imgur.com/atTCl8B.png)
 	
 	<br>
 
