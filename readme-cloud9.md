@@ -73,37 +73,57 @@ Our browser **bakes** these **ingredients** (files) together to render a webpage
 
 **Question**: Has anyone heard of these terms? Has anyone built a website using HTML, CSS and Javascript?
 
-We're gonna use an online tool called [Codepen.io](http://codepen.io/) to build a webpage that contains HTML, CSS and Javascript so we can see what each does for us. We'll walk through each of the steps below together.
+In Cloud9 we're gonna build a webpage that contains HTML, CSS and Javascript so we can see what each does for us. We'll walk through each of the steps below together.
 
-1. Go to Codepen.io and click on `+ New Pen` in the top right corner. 
+To start, I'm gonna send you a link to my [Cloud9 workspace](https://ide.c9.io/marc_wright/info-test). You'll be able to copy any code you need. We'll also take a look at the finished version of what we're gonna build.
 
-    ![](https://i.imgur.com/x68rcSV.png)
+1. Go to Cloud9 and create a new workspace. Give it a name and select "blank" workspace.
 
-3. Inside the `HTML` box, let's add an `h1` tag that says "Hello World!". Our HTML markup should look like so:
+2. Let's create a new file named `index.html`. You can do this by right-clicking on the folder on the top left of your screen and naming the file `index.html`.
+
+3. In your `index.html`, type in `html` then hit Tab. It should auto create a basic HTML structure. Next, inside the `<html>` tags, add `<head>` and `<body>`. Finally, inside the `body` of our page, let's add an `h1` tag that says "Hello World!". Our HTML markup should look like so:
 
 	```html
-	<h1>Hello World!</h1>
+	<!DOCTYPE html>
+	<html>
+	  <head>
+	        
+	  </head>
+	  <body>
+	    <h1>Hello World!</h1>
+	  </body>	    
+	</html>
 	```
 	
-	Hit the `Save` button and you should see the following in the preview window:
+	Great, now we've got a great basic starter structure using HTML tags! Let's see it in action. Click on `Preview` at the top of the Cloud9 interface to open a new browser window like so:
 		
-	![](https://i.imgur.com/XJT93dv.png)
+	![](img/step1.png)
 
 
-4. Let's change the color and font of our "Hello World!" by adding a CSS rule to all the `h1` tags.
+4. Let's change the color and font of our "Hello World!" by adding some CSS. Normally, we'd want to put our CSS rules in a separate file, but today we're gonna add them inside our `head` tags:
 
-	```css
-	h1 {
-	  font-family: Georgia;
-	  color: green
-	}
+	```html
+	<!DOCTYPE html>
+	<html>
+	  <head>
+	    <style type="text/css">
+		   h1 {
+			  font-family: Georgia;
+			  color: green
+			}
+		 </style>
+	  </head>
+	  <body>
+		 <h1>Hello World!</h1>
+     </body>
+   </html>
 	```	
 	
 	The browser window in Cloud9 should automatically refresh and show your changes like so:
 
-	![](https://i.imgur.com/s0nQMJF.png)
+	![](img/step2.png)
 	
-	Finally, let's add a button that will use Javascript to alert your name. We'll add this to our `JS` window.
+	Finally, let's add a button that will use Javascript to alert your name. Again, normally we'd want to create a separate file for this, but today we're gonna put it within `<script>` tags in our HTML.
 	
 
 5. Let's add a `button` element to our page and a Javascript [onclick](http://www.w3schools.com/jsref/event_onclick.asp) event. When our button is clicked, it'll fire off a browser alert. Let's add the code below:
